@@ -4,6 +4,45 @@ This guide outlines the collaborative workflow for contributing to this reposito
 
 ---
 
+## 📛 Naming Conventions (Branches & Commits)  
+
+### **Branch Names**  
+Follow the format:  
+`<username>/<type>/<short-description>`  
+
+**Examples:**  
+```bash  
+git checkout -b jakob/feat/user-auth      # Feature branch  
+git checkout -b lena/fix/header-overflow  # Bug fix branch  
+git checkout -b max/docs/contributing     # Documentation update  
+```  
+
+**Accepted Types:**  
+- `feat/`: New features or functionality.  
+- `fix/`: Bug fixes or patches.  
+- `docs/`: Documentation changes.  
+- `chore/`: Maintenance tasks (e.g., CI/CD, dependency updates).  
+- `test/`: Adding or updating tests.  
+- `refactor/`: Code restructuring (no new features/fixes).  
+
+---
+
+### **Commit Messages**  
+`<type>(<scope>): <subject>`  
+
+**Examples:**  
+```bash  
+git commit -m "feat(auth): add OAuth2 login support"  
+git commit -m "fix(header): resolve mobile overflow"  
+git commit -m "docs(readme): update contribution guide"  
+```  
+
+**Rules:**  
+- Use the **imperative mood** ("add" instead of "added").  
+- Try to keep the subject line under **50 characters**.  
+
+---
+
 ## 🛠️ Getting Started  
 
 ### 1. Clone the Repository  
