@@ -52,13 +52,13 @@ git clone https://github.com/peer-network/how_to_git.git
 ```  
 
 ### 2. Create a Feature Branch  
-Always work in a **dedicated branch** to isolate your changes. Include your username and a brief description in the branch name:  
+Always work in a **dedicated branch** to isolate your changes. Include your username, the type of your change and a brief description in the branch name:  
 ```bash  
-git checkout -b yourusername_modify_readme  
+git checkout -b your-username/type/short-description  
 ```  
 **Example:**  
 ```bash  
-git checkout -b jakob_modify_readme  
+git checkout -b jakob/docs/modify_readme  
 ```  
 
 ---
@@ -67,15 +67,16 @@ git checkout -b jakob_modify_readme
 
 ### 3. Stage and Commit Changes  
 After making your edits, add the changes to the staging area and commit them with a descriptive message:  
+Edits: Please add a .txt file with some crative content to your branch when testing this workflow instead of changing the ReadMe.  
 ```bash  
 git add .  
-git commit -m "Update README: clarify contribution steps and fix typos"  
+git commit -m "feat(jakobs_test): add a funny file named jakob.txt to the project"  
 ```  
 
 ### 4. Push to Remote  
 Push your branch to the remote repository:  
 ```bash  
-git push origin yourusername_modify_readme  
+git push your-username/type/short-description  
 ```  
 
 ---
@@ -100,7 +101,7 @@ git push origin yourusername_modify_readme
 
 - **Review Process**: The lead developer or team will review your changes.  
 - **Resolve Feedback**: Update your branch if revisions are requested.  
-- **Merge or Close**: The PR will be merged into `main` upon approval or closed if deemed unnecessary.  
+- **Merge or Close**: The PR will be merged into `main` !BY THE LEAD DEV! upon approval or closed if deemed unnecessary.  
 
 ---
 
