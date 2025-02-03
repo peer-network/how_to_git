@@ -76,7 +76,7 @@ git commit -m "feat(jakobs_test): add a funny file named jakob.txt to the projec
 ### 4. Push to Remote  
 Push your branch to the remote repository:  
 ```bash  
-git push your-username/type/short-description  
+git push origin your-username/type/short-description  
 ```  
 
 ---
