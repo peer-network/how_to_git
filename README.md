@@ -1,6 +1,7 @@
 # How to Contribute to a GitHub Repository  
 
 This guide outlines the collaborative workflow for contributing to this repository. Follow these steps to ensure smooth collaboration and code integration.  
+[![Contributing](https://img.shields.io/badge/Contributing-Guidelines-blue.svg)](CONTRIBUTING.md)
 
 ---
 
