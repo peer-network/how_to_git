@@ -2,6 +2,7 @@
 
 This guide outlines the collaborative workflow for contributing to this repository. Follow these steps to ensure smooth collaboration and code integration.  
 [![Contributing](https://img.shields.io/badge/Contributing-Guidelines-blue.svg)](https://github.com/peer-network/.github/blob/main/CONTRIBUTING.md)  
+[![GIT Knowledge](https://img.shields.io/badge/Documentation-git.md-blue.svg)](https://github.com/peer-network/how_to_git/blob/main/git.md)
 
 ---
 
