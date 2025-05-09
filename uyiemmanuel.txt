@@ -1,0 +1,4 @@
+clone the repository on how to git
+create a feature branch
+stage and commit changes
+push to remote
